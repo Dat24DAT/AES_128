@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/WorkingSpace/DATN/subword/sim/work
+vsubword
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1733766665
+!i10b 1
+!s100 ZP2WioYL<Z]6J<bJJT5lf1
+I_0H;SVKo>3Z3X?^6^8K0A1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 subword_sv_unit
+S1
+R0
+w1733766559
+8../../rtl/subword.sv
+F../../rtl/subword.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1733766665.000000
+!s107 ../../rtl/subword.sv|
+!s90 ../../rtl/subword.sv|
+!i113 1
+Z6 tCvgOpt 0
+vsubword_tb
+R1
+R2
+!i10b 1
+!s100 1bd4L=FoSzojc9PP<2jjL3
+IP2ZQz3YBW`T`CbK0iOh630
+R3
+!s105 subword_tb_sv_unit
+S1
+R0
+w1733766663
+8../../tb/subword_tb.sv
+F../../tb/subword_tb.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../../tb/subword_tb.sv|
+!s90 ../../tb/subword_tb.sv|
+!i113 1
+R6

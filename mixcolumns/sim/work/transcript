@@ -1,0 +1,29 @@
+# do ../script/run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Start time: 10:31:42 on Dec 14,2024
+# vlog ../../rtl/mixcolumns.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module mixcolumns
+# 
+# Top level modules:
+# 	mixcolumns
+# End time: 10:31:42 on Dec 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Start time: 10:31:42 on Dec 14,2024
+# vlog ../../tb/mixcolumns_tb.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# -- Compiling module mixcolumns_tb
+# 
+# Top level modules:
+# 	mixcolumns_tb
+# End time: 10:31:42 on Dec 14,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -voptargs=""+acc"" work.mixcolumns_tb -wlf mixcolumns.wlf 
+# Start time: 10:31:42 on Dec 14,2024
+# Loading sv_std.std
+# Loading work.mixcolumns_tb
+# Loading work.mixcolumns
+# ** Note: $finish    : ../../tb/mixcolumns_tb.sv(20)
+#    Time: 30 ps  Iteration: 0  Instance: /mixcolumns_tb
+# End time: 10:31:43 on Dec 14,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
