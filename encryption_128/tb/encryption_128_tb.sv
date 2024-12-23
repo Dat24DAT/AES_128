@@ -7,9 +7,9 @@ localparam integer CLK_PERIOD = 10000, //10ks * 1ps = 10ns
 //Declare Ports
 logic clk;
 logic rst_n;
-logic [127:0] plain_text;
-logic [127:0] key;
-logic [127:0] encrypt_text;
+logic [N-1:0] plain_text;
+logic [N-1:0] key;
+logic [N-1:0] encrypt_text;
 logic [$clog2(R)-1:0] round;
 
 
