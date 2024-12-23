@@ -10,7 +10,7 @@ module cipher_round #(
 );
     
     //declare state
-    typedef enum logic [$clog2(4):0] {idle, before_round, in_round, last_round} statetypte;
+    typedef enum logic [$clog2(4)-1:0] {idle, before_round, in_round, last_round} statetypte;
 
     statetypte state_next, state_reg; //4 state ~ 2^2
 
